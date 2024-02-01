@@ -1,12 +1,10 @@
 
 public class Main {
-    String name, Subjects, attendance;
-    int contactNumber;
+    String name, Subjects,attendance;
 
-    public void Timetable(String name, String Subjects, String attendance, int contactNumber) {
+    public void Timetable(String name, String Subjects, String attendance) {
         this.name = name;
         this.Subjects = Subjects;
         this.attendance = attendance;
-        this.contactNumber = contactNumber;
     }
 }
